@@ -1862,12 +1862,12 @@ $(function () {
     }
     if (habBotaoWhats) {
         $("body").append(
-            '<a class="btn-whats visible-phone visible-tablet" href="https://api.whatsapp.com/send?phone=55' +
+            '<a class="btn-whats visible-phone visible-tablet" href="https://api.whatsapp.com/send?phone=' +
                 numWhats +
                 '" target="_blank">' +
                 '<i class="fab fa-whatsapp" aria-hidden="true"></i>' +
                 "</a>" +
-                '<a class="btn-whats hidden-phone hidden-tablet" href="https://web.whatsapp.com/send?phone=55' +
+                '<a class="btn-whats hidden-phone hidden-tablet" href="https://web.whatsapp.com/send?phone=' +
                 numWhats +
                 '" target="_blank">' +
                 '<i class="fab fa-whatsapp" aria-hidden="true"></i>' +
